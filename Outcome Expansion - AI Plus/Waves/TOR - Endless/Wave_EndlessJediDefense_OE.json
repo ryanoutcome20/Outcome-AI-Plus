@@ -1,0 +1,174 @@
+{
+  "$type": "ThunderRoad.WaveData, ThunderRoad",
+  "id": "EndlessJediDefenseAIPlus",
+  "version": 2,
+  "category": "AI Plus - TOR Endless",
+  "title": "Jedi Defense",
+  "description": "Help protect the Jedi against a Sith attack",
+  "loopBehavior": "LoopSeamless",
+  "totalMaxAlive": 8,
+  "alwaysAvailable": true,
+  "waveSelectors": [
+    "Arena",
+    "Ruins",
+    "Market",
+    "Canyon",
+    "Citadel"
+  ],
+  "playerHealthMultiplier": 1.0,
+  "enemiesHealthMultiplier": 1.0,
+  "groups": [
+    {
+      "reference": "Table",
+      "referenceID": "Jedi",
+      "overrideFaction": true,
+      "factionID": 2,
+      "overrideContainer": false,
+      "overrideContainerID": "",
+      "overrideBrain": true,
+      "overrideBrainID": "aipHighSkillFighter",
+      "overrideMaxMelee": false,
+      "overrideMaxMeleeCount": 0,
+      "minMaxCount": {
+        "x": 2,
+        "y": 4
+      },
+      "spawnPointIndex": -1,
+      "prereqGroupIndex": -1,
+      "prereqMaxRemainingAlive": 0
+    },
+    {
+      "reference": "Table",
+      "referenceID": "Sith",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": false,
+      "overrideContainerID": "",
+      "overrideBrain": true,
+      "overrideBrainID": "aipHighSkillFighter",
+      "overrideMaxMelee": false,
+      "overrideMaxMeleeCount": 0,
+      "minMaxCount": {
+        "x": 1,
+        "y": 2
+      },
+      "spawnPointIndex": -1,
+      "prereqGroupIndex": -1,
+      "prereqMaxRemainingAlive": 0
+    },
+    {
+      "reference": "Table",
+      "referenceID": "Sith",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": false,
+      "overrideContainerID": "",
+      "overrideBrain": true,
+      "overrideBrainID": "aipHighSkillFighter",
+      "overrideMaxMelee": false,
+      "overrideMaxMeleeCount": 0,
+      "minMaxCount": {
+        "x": 1,
+        "y": 2
+      },
+      "spawnPointIndex": -1,
+      "prereqGroupIndex": -1,
+      "prereqMaxRemainingAlive": 0
+    },
+    {
+      "reference": "Table",
+      "referenceID": "Sith",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": false,
+      "overrideContainerID": "",
+      "overrideBrain": true,
+      "overrideBrainID": "aipHighSkillFighter",
+      "overrideMaxMelee": false,
+      "overrideMaxMeleeCount": 0,
+      "minMaxCount": {
+        "x": 1,
+        "y": 2
+      },
+      "spawnPointIndex": -1,
+      "prereqGroupIndex": -1,
+      "prereqMaxRemainingAlive": 0
+    },
+    {
+      "reference": "Table",
+      "referenceID": "Sith",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": false,
+      "overrideContainerID": "",
+      "overrideBrain": true,
+      "overrideBrainID": "aipHighSkillFighter",
+      "overrideMaxMelee": false,
+      "overrideMaxMeleeCount": 0,
+      "minMaxCount": {
+        "x": 1,
+        "y": 2
+      },
+      "spawnPointIndex": -1,
+      "prereqGroupIndex": -1,
+      "prereqMaxRemainingAlive": 0
+    },
+    {
+      "reference": "Table",
+      "referenceID": "Sith",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": false,
+      "overrideContainerID": "",
+      "overrideBrain": true,
+      "overrideBrainID": "aipHighSkillFighter",
+      "overrideMaxMelee": false,
+      "overrideMaxMeleeCount": 0,
+      "minMaxCount": {
+        "x": 1,
+        "y": 2,
+      },
+      "spawnPointIndex": -1,
+      "prereqGroupIndex": -1,
+      "prereqMaxRemainingAlive": 0
+    },
+    {
+      "reference": "Table",
+      "referenceID": "Sith",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": false,
+      "overrideContainerID": "",
+      "overrideBrain": true,
+      "overrideBrainID": "aipHighSkillFighter",
+      "overrideMaxMelee": false,
+      "overrideMaxMeleeCount": 0,
+      "minMaxCount": {
+        "x": 1,
+        "y": 2
+      },
+      "spawnPointIndex": -1,
+      "prereqGroupIndex": -1,
+      "prereqMaxRemainingAlive": 0
+    },
+    {
+      "reference": "Table",
+      "referenceID": "Sith",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": false,
+      "overrideContainerID": "",
+      "overrideBrain": true,
+      "overrideBrainID": "aipHighSkillFighter",
+      "overrideMaxMelee": false,
+      "overrideMaxMeleeCount": 0,
+      "minMaxCount": {
+        "x": 2,
+        "y": 4
+      },
+      "spawnPointIndex": -1,
+      "prereqGroupIndex": -1,
+      "prereqMaxRemainingAlive": 0
+    }
+  ]
+}

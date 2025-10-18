@@ -1,0 +1,122 @@
+﻿{
+  "$type": "ThunderRoad.WaveData, ThunderRoad",
+  "id": "EndlessTuskenRaiderAmbushVeryHardAIPlus",
+  "version": 2,
+  "category": "AI Plus - TOR Endless",
+  "title": "Tusken Raiders V.Hard",
+  "description": "Fight up to ten tusken raiders at a time.",
+  "loopBehavior": "LoopSeamless",
+  "totalMaxAlive": 10,
+  "alwaysAvailable": true,
+  "waveSelectors": [
+    "Arena",
+    "Ruins",
+    "Market",
+    "Canyon",
+    "Citadel"
+  ],
+  "playerHealthMultiplier": 0.1,
+  "enemiesHealthMultiplier": 1.0,
+  "groups": [
+    {
+      "reference": "Table",
+      "referenceID": "TuskenRaider",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": false,
+      "overrideContainerID": "",
+      "overrideBrain": true,
+      "overrideBrainID": "aipHighSkillFighter",
+      "overrideMaxMelee": false,
+      "overrideMaxMeleeCount": 0,
+      "groupHealthMultiplier": 1.0,
+      "minMaxCount": {
+        "x": 4,
+        "y": 8
+      },
+      "spawnPointIndex": -1,
+      "prereqGroupIndex": -1,
+      "prereqMaxRemainingAlive": 0
+    },
+    {
+      "reference": "Table",
+      "referenceID": "TuskenRaider",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": false,
+      "overrideContainerID": "",
+      "overrideBrain": true,
+      "overrideBrainID": "aipHighSkillFighter",
+      "overrideMaxMelee": false,
+      "overrideMaxMeleeCount": 0,
+      "groupHealthMultiplier": 1.0,
+      "minMaxCount": {
+        "x": 6,
+        "y": 10
+      },
+      "spawnPointIndex": -1,
+      "prereqGroupIndex": -1,
+      "prereqMaxRemainingAlive": 0
+    },
+    {
+      "reference": "Table",
+      "referenceID": "TuskenRaider",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": false,
+      "overrideContainerID": "",
+      "overrideBrain": true,
+      "overrideBrainID": "aipHighSkillFighter",
+      "overrideMaxMelee": false,
+      "overrideMaxMeleeCount": 0,
+      "groupHealthMultiplier": 1.0,
+      "minMaxCount": {
+        "x": 6,
+        "y": 12
+      },
+      "spawnPointIndex": -1,
+      "prereqGroupIndex": -1,
+      "prereqMaxRemainingAlive": 0
+    },
+    {
+      "reference": "Table",
+      "referenceID": "TuskenRaider",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": false,
+      "overrideContainerID": "",
+      "overrideBrain": true,
+      "overrideBrainID": "aipHighSkillFighter",
+      "overrideMaxMelee": false,
+      "overrideMaxMeleeCount": 0,
+      "groupHealthMultiplier": 1.0,
+      "minMaxCount": {
+        "x": 6,
+        "y": 14
+      },
+      "spawnPointIndex": -1,
+      "prereqGroupIndex": -1,
+      "prereqMaxRemainingAlive": 0
+    },
+    {
+      "reference": "Table",
+      "referenceID": "TuskenRaider",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": false,
+      "overrideContainerID": "",
+      "overrideBrain": true,
+      "overrideBrainID": "aipHighSkillFighter",
+      "overrideMaxMelee": false,
+      "overrideMaxMeleeCount": 0,
+      "groupHealthMultiplier": 1.0,
+      "minMaxCount": {
+        "x": 8,
+        "y": 16
+      },
+      "spawnPointIndex": -1,
+      "prereqGroupIndex": -1,
+      "prereqMaxRemainingAlive": 0
+    }
+  ]
+}

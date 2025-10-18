@@ -1,0 +1,42 @@
+﻿{
+  "$type": "ThunderRoad.WaveData, ThunderRoad",
+  "id": "2v1SithAIPlus",
+  "version": 2,
+  "category": "AI Plus - TOR 2v1",
+  "title": "Sith",
+  "description": "Fight against a couple Sith. The Sith will automatically respawn.",
+  "loopBehavior": "LoopSeamless",
+  "totalMaxAlive": 2,
+  "alwaysAvailable": true,
+  "waveSelectors": [
+    "Arena",
+    "Ruins",
+    "Market",
+    "Canyon",
+    "Citadel"
+  ],
+  "playerHealthMultiplier": 1.0,
+  "enemiesHealthMultiplier": 1.0,
+  "groups": [
+    {
+      "reference": "Table",
+      "referenceID": "Sith",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": false,
+      "overrideContainerID": "",
+      "overrideBrain": true,
+      "overrideBrainId": "aipHighSkillFighter",
+      "overrideMaxMelee": false,
+      "overrideMaxMeleeCount": 0,
+      "groupHealthMultiplier": 1.0,
+      "minMaxCount": {
+        "x": 100,
+        "y": 100
+      },
+      "spawnPointIndex": -1,
+      "prereqGroupIndex": -1,
+      "prereqMaxRemainingAlive": 0
+    }
+  ]
+}

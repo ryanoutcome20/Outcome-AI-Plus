@@ -1,0 +1,122 @@
+﻿{
+  "$type": "ThunderRoad.WaveData, ThunderRoad",
+  "id": "EndlessYounglingGuardianAIPlus",
+  "version": 2,
+  "category": "AI Plus - TOR Endless",
+  "title": "The Temple Guardian",
+  "description": "The Emperor has asked his minions to do the worst of deeds. You must protect the younglings.",
+  "loopBehavior": "LoopSeamless",
+  "totalMaxAlive": 6,
+  "alwaysAvailable": true,
+  "waveSelectors": [
+    "Arena",
+    "Ruins",
+    "Market",
+    "Canyon",
+    "Citadel"
+  ],
+  "playerHealthMultiplier": 1.0,
+  "enemiesHealthMultiplier": 1.0,
+  "groups": [
+    {
+      "reference": "Table",
+      "referenceID": "Youngling",
+      "overrideFaction": true,
+      "factionID": 2,
+      "overrideContainer": false,
+      "overrideContainerID": "",
+      "overrideBrain": true,
+      "overrideBrainID": "aipHighSkillFighter",
+      "overrideMaxMelee": false,
+      "overrideMaxMeleeCount": 0,
+      "groupHealthMultiplier": 1.0,
+      "minMaxCount": {
+        "x": 1,
+        "y": 2
+      },
+      "spawnPointIndex": -1,
+      "prereqGroupIndex": -1,
+      "prereqMaxRemainingAlive": 0
+    },
+    {
+      "reference": "Table",
+      "referenceID": "Youngling",
+      "overrideFaction": true,
+      "factionID": 2,
+      "overrideContainer": false,
+      "overrideContainerID": "",
+      "overrideBrain": true,
+      "overrideBrainID": "aipHighSkillFighter",
+      "overrideMaxMelee": false,
+      "overrideMaxMeleeCount": 0,
+      "groupHealthMultiplier": 1.0,
+      "minMaxCount": {
+        "x": 1,
+        "y": 2
+      },
+      "spawnPointIndex": -1,
+      "prereqGroupIndex": -1,
+      "prereqMaxRemainingAlive": 0
+    },
+    {
+      "reference": "Table",
+      "referenceID": "Sith",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": false,
+      "overrideContainerID": "",
+      "overrideBrain": true,
+      "overrideBrainID": "aipHighSkillFighter",
+      "overrideMaxMelee": false,
+      "overrideMaxMeleeCount": 0,
+      "groupHealthMultiplier": 1.0,
+      "minMaxCount": {
+        "x": 4,
+        "y": 6
+      },
+      "spawnPointIndex": -1,
+      "prereqGroupIndex": -1,
+      "prereqMaxRemainingAlive": 0
+    },
+    {
+      "reference": "Table",
+      "referenceID": "Sith",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": false,
+      "overrideContainerID": "",
+      "overrideBrain": true,
+      "overrideBrainID": "aipHighSkillFighter",
+      "overrideMaxMelee": false,
+      "overrideMaxMeleeCount": 0,
+      "groupHealthMultiplier": 1.0,
+      "minMaxCount": {
+        "x": 4,
+        "y": 6
+      },
+      "spawnPointIndex": -1,
+      "prereqGroupIndex": -1,
+      "prereqMaxRemainingAlive": 0
+    },
+    {
+      "reference": "Table",
+      "referenceID": "Sith",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": false,
+      "overrideContainerID": "",
+      "overrideBrain": true,
+      "overrideBrainID": "aipHighSkillFighter",
+      "overrideMaxMelee": false,
+      "overrideMaxMeleeCount": 0,
+      "groupHealthMultiplier": 1.0,
+      "minMaxCount": {
+        "x": 4,
+        "y": 6
+      },
+      "spawnPointIndex": -1,
+      "prereqGroupIndex": -1,
+      "prereqMaxRemainingAlive": 0
+    }
+  ]
+}

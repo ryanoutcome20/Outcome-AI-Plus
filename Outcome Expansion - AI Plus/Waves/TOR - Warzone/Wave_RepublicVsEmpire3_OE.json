@@ -1,0 +1,56 @@
+{
+  "$type": "ThunderRoad.WaveData, ThunderRoad",
+  "id": "RepublicVsEmpire3AIPlus",
+  "version": 2,
+  "category": "AI Plus - TOR Warzone",
+  "title": "Republic vs Empire - 8",
+  "description": "Republic troops are fighting the Empire. Take cover, you're on neither side!",
+  "loopBehavior": "LoopSeamless",
+  "totalMaxAlive": 8,
+  "alwaysAvailable": true,
+  "waveSelectors": [
+    "Arena",
+    "Ruins",
+    "Market",
+    "Canyon",
+    "Citadel"
+  ],
+  "playerHealthMultiplier": 1.0,
+  "enemiesHealthMultiplier": 1.0,
+  "factions": [
+    {
+      "$type": "ThunderRoad.WaveData+WaveFaction, ThunderRoad",
+      "factionID": 4,
+      "factionHealthMultiplier": 1.0,
+      "factionMaxAlive": 4
+    },
+    {
+      "$type": "ThunderRoad.WaveData+WaveFaction, ThunderRoad",
+      "factionID": 5,
+      "factionHealthMultiplier": 1.0,
+      "factionMaxAlive": 4
+    }
+  ],
+  "groups": [
+    {
+      "reference": "Table",
+      "referenceID": "RepublicVsEmpire",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": false,
+      "overrideContainerID": "",
+      "overrideBrain": true,
+      "overrideBrainId": "aipHighSkillFighter",
+      "overrideMaxMelee": false,
+      "overrideMaxMeleeCount": 0,
+      "groupHealthMultiplier": 1.0,
+      "minMaxCount": {
+        "x": 128,
+        "y": 128
+      },
+      "spawnPointIndex": -1,
+      "prereqGroupIndex": -1,
+      "prereqMaxRemainingAlive": 0
+    }
+  ]
+}

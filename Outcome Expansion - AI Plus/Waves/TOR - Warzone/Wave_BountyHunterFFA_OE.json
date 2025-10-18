@@ -1,0 +1,41 @@
+{
+  "$type": "ThunderRoad.WaveData, ThunderRoad",
+  "id": "BountyHunterFFAAIPlus",
+  "version": 2,
+  "category": "AI Plus - TOR Warzone",
+  "title": "Bounty Hunter free for all - 3",
+  "description": "Every bounty hunter in the quadrant has it out for each other. Take cover.",
+  "loopBehavior": "LoopSeamless",
+  "totalMaxAlive": 3,
+  "alwaysAvailable": true,
+  "waveSelectors": [
+    "Arena",
+    "Ruins",
+    "Market",
+    "Canyon",
+    "Citadel"
+  ],
+  "playerHealthMultiplier": 1.0,
+  "enemiesHealthMultiplier": 1.0,
+  "groups": [
+    {
+      "reference": "Table",
+      "referenceID": "BountyHunter",
+      "overrideFaction": true,
+      "factionID": 0,
+      "overrideContainer": false,
+      "overrideContainerID": "",
+      "overrideBrain": true,
+      "overrideBrainId": "aipHighSkillFighter",
+      "overrideMaxMelee": false,
+      "overrideMaxMeleeCount": 0,
+      "minMaxCount": {
+        "x": 128,
+        "y": 128
+      },
+      "spawnPointIndex": -1,
+      "prereqGroupIndex": -1,
+      "prereqMaxRemainingAlive": 0
+    }
+  ]
+}

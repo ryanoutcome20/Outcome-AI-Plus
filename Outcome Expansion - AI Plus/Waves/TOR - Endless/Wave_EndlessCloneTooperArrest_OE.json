@@ -1,0 +1,142 @@
+﻿{
+  "$type": "ThunderRoad.WaveData, ThunderRoad",
+  "id": "EndlessCloneTrooperArrestAIPlus",
+  "version": 2,
+  "category": "AI Plus - TOR Endless",
+  "title": "Clone Trooper Arrest",
+  "description": "A warrant is out for your arrest, a group of Clone Troopers have been dispatched to arrest you. They've been instructed to use batons only.",
+  "loopBehavior": "LoopSeamless",
+  "totalMaxAlive": 3,
+  "alwaysAvailable": true,
+  "waveSelectors": [
+    "Arena",
+    "Ruins",
+    "Market",
+    "Canyon",
+    "Citadel"
+  ],
+  "playerHealthMultiplier": 1.0,
+  "enemiesHealthMultiplier": 1.0,
+  "groups": [
+    {
+      "reference": "Table",
+      "referenceID": "Republic",
+      "overrideFaction": false,
+      "factionID": 4,
+      "overrideContainer": true,
+      "overrideContainerID": "CloneTrooperMelee",
+      "overrideBrain": true,
+      "overrideBrainID": "aipHighSkillFighter",
+      "overrideMaxMelee": false,
+      "overrideMaxMeleeCount": 0,
+      "groupHealthMultiplier": 1.0,
+      "minMaxCount": {
+        "x": 1,
+        "y": 2
+      },
+      "spawnPointIndex": -1,
+      "prereqGroupIndex": -1,
+      "prereqMaxRemainingAlive": 0
+    },
+    {
+      "reference": "Table",
+      "referenceID": "Republic",
+      "overrideFaction": false,
+      "factionID": 4,
+      "overrideContainer": true,
+      "overrideContainerID": "CloneTrooperMelee",
+      "overrideBrain": true,
+      "overrideBrainID": "aipHighSkillFighter",
+      "overrideMaxMelee": false,
+      "overrideMaxMeleeCount": 0,
+      "groupHealthMultiplier": 1.0,
+      "minMaxCount": {
+        "x": 1,
+        "y": 2
+      },
+      "spawnPointIndex": -1,
+      "prereqGroupIndex": -1,
+      "prereqMaxRemainingAlive": 0
+    },
+    {
+      "reference": "Table",
+      "referenceID": "Republic",
+      "overrideFaction": false,
+      "factionID": 4,
+      "overrideContainer": true,
+      "overrideContainerID": "CloneTrooperMelee",
+      "overrideBrain": true,
+      "overrideBrainID": "aipHighSkillFighter",
+      "overrideMaxMelee": false,
+      "overrideMaxMeleeCount": 0,
+      "groupHealthMultiplier": 1.0,
+      "minMaxCount": {
+        "x": 2,
+        "y": 4
+      },
+      "spawnPointIndex": -1,
+      "prereqGroupIndex": -1,
+      "prereqMaxRemainingAlive": 0
+    },
+    {
+      "reference": "Table",
+      "referenceID": "Republic",
+      "overrideFaction": false,
+      "factionID": 4,
+      "overrideContainer": true,
+      "overrideContainerID": "CloneTrooperMelee",
+      "overrideBrain": true,
+      "overrideBrainID": "aipHighSkillFighter",
+      "overrideMaxMelee": false,
+      "overrideMaxMeleeCount": 0,
+      "groupHealthMultiplier": 1.0,
+      "minMaxCount": {
+        "x": 4,
+        "y": 8
+      },
+      "spawnPointIndex": -1,
+      "prereqGroupIndex": -1,
+      "prereqMaxRemainingAlive": 0
+    },
+    {
+      "reference": "Table",
+      "referenceID": "Republic",
+      "overrideFaction": false,
+      "factionID": 4,
+      "overrideContainer": true,
+      "overrideContainerID": "CloneTrooperMelee",
+      "overrideBrain": true,
+      "overrideBrainID": "aipHighSkillFighter",
+      "overrideMaxMelee": false,
+      "overrideMaxMeleeCount": 0,
+      "groupHealthMultiplier": 1.0,
+      "minMaxCount": {
+        "x": 2,
+        "y": 4
+      },
+      "spawnPointIndex": -1,
+      "prereqGroupIndex": -1,
+      "prereqMaxRemainingAlive": 0
+    },
+    {
+      "reference": "Table",
+      "referenceID": "Republic",
+      "overrideFaction": false,
+      "factionID": 4,
+      "overrideContainer": true,
+      "overrideContainerID": "CloneTrooperMelee",
+      "overrideBrain": true,
+      "overrideBrainID": "aipHighSkillFighter",
+      "overrideMaxMelee": false,
+      "overrideMaxMeleeCount": 0,
+      "groupHealthMultiplier": 1.0,
+      "minMaxCount": {
+        "x": 1,
+        "y": 8
+      },
+      "spawnPointIndex": -1,
+      "prereqGroupIndex": -1,
+      "prereqMaxRemainingAlive": 0
+    }
+  ]
+}

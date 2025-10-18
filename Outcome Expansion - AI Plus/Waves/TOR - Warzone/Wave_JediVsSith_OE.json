@@ -1,0 +1,55 @@
+{
+  "$type": "ThunderRoad.WaveData, ThunderRoad",
+  "id": "JediVsSithAIPlus",
+  "version": 2,
+  "category": "AI Plus - TOR Warzone",
+  "title": "Jedi vs Sith - 3",
+  "description": "The Jedi and Sith are at war, and you're caught right in the middle of it.",
+  "loopBehavior": "LoopSeamless",
+  "totalMaxAlive": 3,
+  "alwaysAvailable": true,
+  "waveSelectors": [
+    "Arena",
+    "Ruins",
+    "Market",
+    "Canyon",
+    "Citadel"
+  ],
+  "playerHealthMultiplier": 1.0,
+  "enemiesHealthMultiplier": 1.0,
+  "factions": [
+    {
+      "$type": "ThunderRoad.WaveData+WaveFaction, ThunderRoad",
+      "factionID": 4,
+      "factionHealthMultiplier": 1.0,
+      "factionMaxAlive": 2
+    },
+    {
+      "$type": "ThunderRoad.WaveData+WaveFaction, ThunderRoad",
+      "factionID": 5,
+      "factionHealthMultiplier": 1.0,
+      "factionMaxAlive": 2
+    }
+  ],
+  "groups": [
+    {
+      "reference": "Table",
+      "referenceID": "JediVsSith",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": false,
+      "overrideContainerID": "",
+      "overrideBrain": true,
+      "overrideBrainId": "aipHighSkillFighter",
+      "overrideMaxMelee": false,
+      "overrideMaxMeleeCount": 0,
+      "minMaxCount": {
+        "x": 128,
+        "y": 128
+      },
+      "spawnPointIndex": -1,
+      "prereqGroupIndex": -1,
+      "prereqMaxRemainingAlive": 0
+    }
+  ]
+}

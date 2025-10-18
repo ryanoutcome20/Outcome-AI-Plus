@@ -1,0 +1,41 @@
+{
+  "$type": "ThunderRoad.WaveData, ThunderRoad",
+  "id": "HellAIPlus",
+  "version": 2,
+  "category": "AI Plus - TOR Warzone",
+  "title": "Hell - 64",
+  "description": "Everyone against everyone, the true warzone. Good luck.",
+  "loopBehavior": "LoopSeamless",
+  "totalMaxAlive": 64,
+  "alwaysAvailable": true,
+  "waveSelectors": [
+    "Arena",
+    "Ruins",
+    "Market",
+    "Canyon",
+    "Citadel"
+  ],
+  "playerHealthMultiplier": 0.5,
+  "enemiesHealthMultiplier": 0.5,
+  "groups": [
+    {
+      "reference": "Table",
+      "referenceID": "GalacticFFA",
+      "overrideFaction": true,
+      "factionID": 0,
+      "overrideContainer": false,
+      "overrideContainerID": "",
+      "overrideBrain": true,
+      "overrideBrainId": "aipHighSkillFighter",
+      "overrideMaxMelee": false,
+      "overrideMaxMeleeCount": 0,
+      "minMaxCount": {
+        "x": 128,
+        "y": 128
+      },
+      "spawnPointIndex": -1,
+      "prereqGroupIndex": -1,
+      "prereqMaxRemainingAlive": 0
+    }
+  ]
+}
