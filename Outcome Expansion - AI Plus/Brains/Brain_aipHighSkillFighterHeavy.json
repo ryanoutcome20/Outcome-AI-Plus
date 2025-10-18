@@ -1,6 +1,6 @@
 {
   "$type": "ThunderRoad.BrainData, ThunderRoad",
-  "id": "aipHighSkillFighter",
+  "id": "aipHighSkillFighterHeavy",
   "sensitiveContent": "None",
   "sensitiveFilterBehaviour": "Discard",
   "version": 2,
@@ -494,7 +494,7 @@
           "duringIdle": "StaggerMedium",
           "duringCombat": "StaggerLight",
           "duringStagger": "StaggerMedium",
-          "duringStaggerFull": "StaggerFull",
+          "duringStaggerFull": "StaggerMedium",
           "duringAttack": "StaggerMedium",
           "duringAttackJump": "None"
         },
@@ -504,21 +504,21 @@
           "onlyForBodyParts": [
             "Head, Neck"
           ],
-          "duringIdle": "StaggerFull",
+          "duringIdle": "StaggerMedium",
           "duringCombat": "StaggerMedium",
-          "duringStagger": "StaggerFull",
+          "duringStagger": "StaggerMedium",
           "duringStaggerFull": "Destabilize",
-          "duringAttack": "StaggerFull",
+          "duringAttack": "StaggerMedium",
           "duringAttackJump": "Destabilize"
         },
         {
           "$type": "ThunderRoad.BrainModuleHitReaction+PushBehaviour, ThunderRoad",
           "level": 1,
           "onlyForBodyParts": [],
-          "duringIdle": "StaggerFull",
+          "duringIdle": "StaggerMedium",
           "duringCombat": "StaggerMedium",
-          "duringStagger": "StaggerFull",
-          "duringStaggerFull": "StaggerFull",
+          "duringStagger": "StaggerMedium",
+          "duringStaggerFull": "StaggerMedium",
           "duringAttack": "StaggerMedium",
           "duringAttackJump": "Destabilize"
         },
@@ -529,7 +529,7 @@
             "Head, Neck"
           ],
           "duringIdle": "Destabilize",
-          "duringCombat": "StaggerFull",
+          "duringCombat": "StaggerMedium",
           "duringStagger": "Destabilize",
           "duringStaggerFull": "Destabilize",
           "duringAttack": "Destabilize",
@@ -540,10 +540,10 @@
           "level": 2,
           "onlyForBodyParts": [],
           "duringIdle": "Destabilize",
-          "duringCombat": "StaggerFull",
-          "duringStagger": "StaggerFull",
+          "duringCombat": "StaggerMedium",
+          "duringStagger": "StaggerMedium",
           "duringStaggerFull": "Destabilize",
-          "duringAttack": "StaggerFull",
+          "duringAttack": "StaggerMedium",
           "duringAttackJump": "Destabilize"
         },
         {
@@ -592,7 +592,7 @@
           "duringIdle": "StaggerMedium",
           "duringCombat": "StaggerLight",
           "duringStagger": "StaggerLight",
-          "duringStaggerFull": "StaggerFull",
+          "duringStaggerFull": "StaggerMedium",
           "duringAttack": "StaggerMedium",
           "duringAttackJump": "Destabilize"
         },
@@ -600,22 +600,22 @@
           "$type": "ThunderRoad.BrainModuleHitReaction+PushBehaviour, ThunderRoad",
           "level": 1,
           "onlyForBodyParts": [],
-          "duringIdle": "StaggerFull",
+          "duringIdle": "StaggerMedium",
           "duringCombat": "StaggerMedium",
           "duringStagger": "StaggerMedium",
           "duringStaggerFull": "Destabilize",
-          "duringAttack": "StaggerFull",
+          "duringAttack": "StaggerMedium",
           "duringAttackJump": "Destabilize"
         },
         {
           "$type": "ThunderRoad.BrainModuleHitReaction+PushBehaviour, ThunderRoad",
           "level": 2,
           "onlyForBodyParts": [],
-          "duringIdle": "StaggerFull",
-          "duringCombat": "StaggerFull",
-          "duringStagger": "StaggerFull",
+          "duringIdle": "StaggerMedium",
+          "duringCombat": "StaggerMedium",
+          "duringStagger": "StaggerMedium",
           "duringStaggerFull": "Destabilize",
-          "duringAttack": "StaggerFull",
+          "duringAttack": "StaggerMedium",
           "duringAttackJump": "Destabilize"
         }
       ],
@@ -664,11 +664,11 @@
             "RightLeg",
             "LeftLeg"
           ],
-          "duringIdle": "StaggerFull",
+          "duringIdle": "StaggerMedium",
           "duringCombat": "StaggerMedium",
-          "duringStagger": "StaggerFull",
-          "duringStaggerFull": "StaggerFull",
-          "duringAttack": "StaggerFull",
+          "duringStagger": "StaggerMedium",
+          "duringStaggerFull": "StaggerMedium",
+          "duringAttack": "StaggerMedium",
           "duringAttackJump": "Destabilize"
         },
         {
@@ -690,10 +690,10 @@
             "RightLeg",
             "LeftLeg"
           ],
-          "duringIdle": "StaggerFull",
+          "duringIdle": "StaggerMedium",
           "duringCombat": "StaggerMedium",
-          "duringStagger": "StaggerFull",
-          "duringStaggerFull": "StaggerFull",
+          "duringStagger": "StaggerMedium",
+          "duringStaggerFull": "StaggerMedium",
           "duringAttack": "StaggerMedium",
           "duringAttackJump": "Destabilize"
         },
@@ -701,11 +701,11 @@
           "$type": "ThunderRoad.BrainModuleHitReaction+PushBehaviour, ThunderRoad",
           "level": 3,
           "onlyForBodyParts": [],
-          "duringIdle": "StaggerFull",
+          "duringIdle": "StaggerMedium",
           "duringCombat": "StaggerMedium",
-          "duringStagger": "StaggerFull",
-          "duringStaggerFull": "StaggerFull",
-          "duringAttack": "StaggerFull",
+          "duringStagger": "StaggerMedium",
+          "duringStaggerFull": "StaggerMedium",
+          "duringAttack": "StaggerMedium",
           "duringAttackJump": "Destabilize"
         },
         {
