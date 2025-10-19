@@ -3,10 +3,10 @@
   "id": "HellAIPlus",
   "version": 2,
   "category": "AI Plus - TOR Warzone",
-  "title": "Hell - 64",
+  "title": "Hell - 50",
   "description": "Everyone against everyone, the true warzone. Good luck.",
   "loopBehavior": "LoopSeamless",
-  "totalMaxAlive": 64,
+  "totalMaxAlive": 50,
   "alwaysAvailable": true,
   "waveSelectors": [
     "Arena",
