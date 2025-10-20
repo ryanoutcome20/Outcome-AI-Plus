@@ -271,6 +271,25 @@
       }
     },
     {
+      "$type": "FirearmAIFix.BrainModuleFirearm, FirearmAIFix",
+      "aimMaxAngleHorizontal": 180.0,
+      "aimMoveSpeed": 5.0,
+      "turnSpeed": 1.0,
+      "minMaxTimeToAttackFromAim": {
+        "x": 0.1,
+        "y": 0.3
+      },
+      "aimArmSpringMultiplier": 0.5,
+      "maxShootAngle": 1.0,
+      "minMaxTimeBetweenDualAttack": {
+        "x": 0.3,
+        "y": 0.5
+      },
+      "ikWeightChangeTime": 1.0,
+      "shootPositionAroundAngle": 180.0,
+      "shootPositionMaxDistance": 2.0
+    },
+    {
       "$type": "ThunderRoad.BrainModuleLookAt, ThunderRoad",
       "weightChangeSpeed": 2.0,
       "defaultBlendTime": 0.5,
